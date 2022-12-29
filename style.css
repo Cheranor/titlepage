@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    font-family: 'Robota', sans-serif;
+    background-color: lightgray;
+    
+    margin: 0;
+}
+
+input {
+    font-size: large;
+    text-align: center;
+}
+
+button {
+    font-size: large;
+}
+
+.headerContainer {
+    display: flex;
+    background-color: lightsteelblue;
+
+    height: 80px;
+    justify-content: center;;
+}
+
+.header {
+    height: 100%;
+    flex: 1 1 auto;
+
+    max-width: 900px;
+}
+
+.logo {
+    width: auto;
+    height: 100%;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    background-color: white;
+
+    max-width: 900px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+
+    margin: 24px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    flex: 1;
+    
+}
+
+.headline {
+    font-size: xxx-large;
+    font-weight: bolder;
+
+    color: gre;
+}
+
+.subtitle {
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.description {
+    font-size: larger;
+}
+
+.nextSteps {
+    font-size: large;
+    color: white;
+}
+
+.interactiveContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    flex: 1;
+
+    border-radius: 25px;
+
+    background-color: green;
+
+    text-align: center;
+}
+
+.socialSharing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon {
+    flex: 0;
+    width: auto;
+    max-height: 40px;
+
+    margin: 8px;
+}
+
+.socialSharing a {
+    text-decoration: none;
+}
+
+.visuals {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 1;
+    flex-direction: column;
+
+    max-width: 250px;
+    margin: 12px;
+
+    text-align: center;
+}
+
+.visualImage {
+    height: auto;
+    width: 100%;
+
+    border-radius: 25px;
+}
+
+.visualDescription {
+    margin-top: 12px;
+}
